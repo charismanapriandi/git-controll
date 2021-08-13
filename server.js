@@ -5,7 +5,7 @@ const app = express()
 const port = process.env.PORT || 4000
 
 app.get('/', (req, res) => {
-    res.send('hallo from express')
+    res.send('hallo from git.charisman-afriandi.com')
 })
 
 app.listen(port, () => console.log('> server running '))
